@@ -62,7 +62,7 @@ public class Conversao {
                     continue;
             }
 
-            System.out.println("Informe o valor a ser convertido:");
+            System.out.println("Informe o valor:");
             String valorStr = leitura.next();
 
             if (valorStr.contains(",")) {
@@ -76,7 +76,7 @@ public class Conversao {
                 historico.add(resultado);
             }
 
-            System.out.println("\nDeseja continuar fazendo conversões? (S/N)");
+            System.out.println("\nDeseja continuar? (S/N)");
             char resposta = leitura.next().charAt(0);
             if (resposta == 'N' || resposta == 'n') {
                 System.out.println("Finalizando...\n");
